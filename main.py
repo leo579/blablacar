@@ -5,10 +5,10 @@ import run_request,find_routes,miscellanous
 import os
 
 ### Enter your variables
-API_KEY = "ytpQsjC9hro6zWad4QvA5r7Xm3DK9Cyu" # you must request access to Blablacar
-from_city = "Dornbirn"
-to_city = "Strasbourg"
-intermediary_cities = ["Freiburg","Zurich","Bern","Stuttgart"]
+API_KEY = "YOUR_API_KEY" # you must request access to Blablacar for this
+from_city = "Name of your starting city"
+to_city = "Name of your destination"
+intermediary_cities = ["Intermediate city 1","Intermediate city 2"]
 start_date_local = "2023-08-31T12:00:00"
 max_waiting_time = 60*3 ###in minutes
 time_delta = 3 ### in days. This is the search window. Max is 3.
